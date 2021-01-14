@@ -11,6 +11,42 @@
     <!-- <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <title>Document</title>
+    <style>
+        @media (max-width: 1200px) {
+            #res
+            {
+                width: 40%;
+            }
+        }
+        @media (max-width: 992px) {
+            #res
+            {
+                width: 100%;
+            }
+        }
+        @media (max-width: 768px) {
+            #res
+            {
+                display: flex;
+                width: 100%;
+                flex-direction: column-reverse;
+            }
+        }
+        @media (max-width: 576px) {
+            #res
+            {
+                display: flex;
+                width: 100%;
+                flex-direction: column-reverse;
+            }
+        }
+        .container
+        {
+            flex-direction: row;
+            justify-content: space-around;
+            flex-flow: wrap;
+        }
+    </style>
 </head>
 
 <body>
@@ -47,13 +83,13 @@
     </header>
 
     <main>
-        <section style="background-color: #FFF9F4;">
-            <section  style="height: 550px; "
+        <section style="background-color: #FFF9F4; max-height: 2000px;">
+            <section  style=" max-height: 1500px;"
             class="d-flex  justify-content-center align-items-center container">
-            <div class="col-md-6 pl-5">
+            <div  class="col-12 col-sm-12 col-md-6 col-lg-6 col-sm-12 pl-5">
                 <img style="height: 450px;" src="Photos/Group 33092.png" alt="">
             </div>
-            <div class="col-md-6 pl-5">
+            <div  class="col-md-6 pl-5">
                 <h1 style="color: #FA804C; margin-bottom: -20px;" class="main-header">NIKE REACT</h1>
                 <h1 style="margin-bottom: 0px; margin-top: 0px;" class="main-header">INFINITY RUN 2</h1>
                 <p class="paragraph-style">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi asperiores blanditiis</p>
@@ -133,7 +169,7 @@
         <section class="container mt-5">
             <h1 class="section-header">FORMAL SHOES</h1>
 
-            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 ">
                 <div class="col">
                     <div class="card card-radious shadow h-100 card-border">
                         <div class="formal-shoes-photo">
@@ -197,10 +233,10 @@
 
         </section>
 
-        <section style="height: 550px;" class="col container d-flex mt-5">
-            <div class="col-md-5 col-sm mt-5 col">
-                <div class="card mb-3 card-radious shadow card-border" style="max-width: 500px; max-height: 150px;">
-                    <div class="row g-0 d-flex justify-content-center align-items-center">
+        <section style="height: 550px;" class="container d-flex mt-5">
+            <div style="position: relative;" id="res" class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  mt-5 mb-5 row">
+                <div class="card mb-3 card-radious shadow card-border" style="max-width: 500px;">
+                    <div id="min" class="row g-0 d-flex justify-content-center align-items-center">
                         <div class="col-md-4 card-image-style">
                             <img src="Logo, Icon/image 12.png" alt="...">
                         </div>
@@ -212,7 +248,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3 card-radious shadow card-border" style="max-width: 500px; max-height: 150px;">
+                <div id="res-card" class="card mb-3 card-radious shadow card-border" style="max-width: 500px;">
                     <div class="row g-0 d-flex justify-content-center align-items-center">
                         <div class="col-md-4 card-image-style">
                             <img src="Logo, Icon/image 13.png" alt="...">
@@ -225,7 +261,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3 card-radious shadow card-border" style="max-width: 500px; max-height: 150px;">
+                <div class="card mb-3 card-radious shadow card-border" style="max-width: 500px;">
                     <div class="row g-0 d-flex justify-content-center align-items-center">
                         <div class="col-md-4 col-sm card-image-style ">
                             <img src="Logo, Icon/image 14.png" alt="...">
@@ -239,7 +275,7 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-image mt-5 col-md-5 col-sm col">
+            <div style="position: relative;"  class="col-md-6 footer-image mt-5 mb-5 row">
                 <img src="Logo, Icon/XMLID 1.png" alt="">
             </div>
         </section>
