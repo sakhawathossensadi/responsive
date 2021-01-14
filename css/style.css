@@ -1,0 +1,25 @@
+.casual-shoes-photo
+{
+    background-color: #F1F1F1;
+    height: 330px;
+    border: 2px solid red;
+    border-radius: 20px;
+    margin: 20px 20px;
+}
+.casual-shoes-photo img
+{
+    height: 400px;
+    padding-bottom: 50px;
+}
+.card-radious
+{
+    border-radius: 15px;
+}
+.footer-image img
+{
+    height: 500px;
+}
+.card-image-style img
+{
+    height: 120px;
+}
