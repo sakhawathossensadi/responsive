@@ -7,114 +7,121 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">  -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
-    <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img style="height: 50px;" src="Logo, Icon/Logo.png" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Product</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" tabindex="-1">Contact Us</a>
-                        </li>
-                    </ul>
+    <header style="background-color: #FFF9F4;">
+        <section class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div style="background-color: #FFF9F4;" class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img style="height: 60px;" src="Logo, Icon/Logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link a-tag-font" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link a-tag-font" href="#">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link a-tag-font" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link a-tag-font" href="#" tabindex="-1">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </section>
     </header>
 
     <main>
-        <section style="height: 550px; background-color: #85B8ED;"
+        <section style="background-color: #FFF9F4;">
+            <section  style="height: 550px; "
             class="d-flex  justify-content-center align-items-center container">
             <div class="col-md-6 pl-5">
                 <img style="height: 450px;" src="Photos/Group 33092.png" alt="">
             </div>
             <div class="col-md-6 pl-5">
-                <h1>NIKE REACT</h1>
-                <h1>INFINITY RUN 2</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi asperiores blanditiis error?</p>
-                <button type="button" class="btn btn-primary">Primary</button>
+                <h1 style="color: #FA804C; margin-bottom: -20px;" class="main-header">NIKE REACT</h1>
+                <h1 style="margin-bottom: 0px; margin-top: 0px;" class="main-header">INFINITY RUN 2</h1>
+                <p class="paragraph-style">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi asperiores blanditiis</p>
+                <button type="button" class="btn btn-primary button-style"><img class="cart-logo" src="Logo, Icon/shopping-cart 1.png" alt="">BUY NOW</button>
             </div>
+        </section>
         </section>
 
         <section class="container mt-5">
-            <h1>CASUAL SHOES</h1>
+            <h1 class="section-header">CASUAL SHOES</h1>
 
             <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
                 <div class="col">
-                    <div class="card card-radious shadow h-100">
+                    <div class="card card-radious shadow h-100 card-border">
                         <div class="casual-shoes-photo">
                             <img src="Photos/image 5.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Nike Shoe</h5>
-                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus nisi
+                            <h5 class="card-title card-header">Nike Shoe</h5>
+                            <p class="card-text paragraph-style">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus nisi
                                 cupiditate nam quod</p>
                         </div>
-                        <div class="card-footer d-flex">
+                        <div style="border-radius: 15px;" class="card-footer d-flex justify-content-between align-items-center">
                             <div>
-                                <h1>$234</h1>
+                                <h1 class="price">$234</h1>
                             </div>
                             <div>
-                                <button type="button" class="btn btn-primary">BUY NOW</button>
+                                <button type="button" class="btn btn-primary button-style"><img class="cart-logo" src="Logo, Icon/shopping-cart 1.png" alt="">BUY NOW</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card card-radious shadow h-100">
+                    <div class="card card-radious shadow h-100 card-border">
                         <div class="casual-shoes-photo">
                             <img src="Photos/Daco_1703273 1.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Sneakers Skate Shoe</h5>
-                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus nisi
+                            <h5 class="card-title card-header">Sneakers Skate Shoe</h5>
+                            <p class="card-text paragraph-style">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus nisi
                                 cupiditate nam quod</p>
                         </div>
-                        <div class="card-footer d-flex">
+                        <div style="border-radius: 15px;" class="card-footer d-flex justify-content-between align-items-center">
                             <div>
-                                <h1>$234</h1>
+                                <h1 class="price">$234</h1>
                             </div>
                             <div>
-                                <button type="button" class="btn btn-primary">BUY NOW</button>
+                                <button type="button" class="btn btn-primary button-style"><img class="cart-logo" src="Logo, Icon/shopping-cart 1.png" alt="">BUY NOW</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card card-radious shadow h-100">
+                    <div class="card card-radious shadow h-100 card-border">
                         <div class="casual-shoes-photo">
                             <img src="Photos/pngegg 1.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Sneakers Basketball Shoe</h5>
-                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus nisi
+                            <h5 class="card-title card-header">Sneakers Basketball Shoe</h5>
+                            <p class="card-text paragraph-style">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus nisi
                                 cupiditate nam quod</p>
                         </div>
-                        <div class="card-footer d-flex">
+                        <div style="border-radius: 15px;" class="card-footer d-flex justify-content-between align-items-center">
                             <div>
-                                <h1>$234</h1>
+                                <h1 class="price">$234</h1>
                             </div>
                             <div>
-                                <button type="button" class="btn btn-primary">BUY NOW</button>
+                                <button type="button" class="btn btn-primary button-style"> <img class="cart-logo" src="Logo, Icon/shopping-cart 1.png" alt="">BUY NOW</button>
                             </div>
                         </div>
                     </div>
@@ -124,65 +131,64 @@
         </section>
 
         <section class="container mt-5">
-            <h1>FORMAL SHOES</h1>
+            <h1 class="section-header">FORMAL SHOES</h1>
 
             <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
                 <div class="col">
-                    <div class="card card-radious shadow h-100">
-                        <div>
+                    <div class="card card-radious shadow h-100 card-border">
+                        <div class="formal-shoes-photo">
                             <img src="Photos/Mask Group.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Prestige High-Cut Leather</h5>
-                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus nisi
+                            <h5 class="card-title card-header">Prestige High-Cut Leather</h5>
+                            <p class="card-text paragraph-style">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus nisi
                                 cupiditate nam quod</p>
                         </div>
-                        <div class="card-footer d-flex">
+                        <div style="border-radius: 15px;" class="card-footer d-flex justify-content-between align-items-center">
                             <div>
-                                <h1>$234</h1>
+                                <h1 class="price">$234</h1>
                             </div>
                             <div>
-                                <button type="button" class="btn btn-primary">BUY NOW</button>
+                                <button type="button" class="btn btn-primary button-style"> <img class="cart-logo" src="Logo, Icon/shopping-cart 1.png" alt="">BUY NOW</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card card-radious shadow h-100">
-                        <div>
+                    <div class="card card-radious shadow h-100 card-border">
+                        <div class="formal-shoes-photo">
                             <img src="Photos/Rectangle 38.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Slip-On Formal Shoe</h5>
-                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus nisi
+                            <h5 class="card-title card-header">Slip-On Formal Shoe</h5>
+                            <p class="card-text paragraph-style">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus nisi
                                 cupiditate nam quod</p>
                         </div>
-                        <div class="card-footer d-flex">
+                        <div style="border-radius: 15px;" class="card-footer d-flex justify-content-between align-items-center">
                             <div>
-                                <h1>$234</h1>
+                                <h1 class="price">$234</h1>
                             </div>
                             <div>
-                                <button type="button" class="btn btn-primary">BUY NOW</button>
+                                <button type="button" class="btn btn-primary button-style"> <img class="cart-logo" src="Logo, Icon/shopping-cart 1.png" alt="">BUY NOW</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card card-radious shadow h-100">
-                        <div>
+                    <div class="card card-radious shadow h-100 card-border">
+                        <div class="formal-shoes-photo">
                             <img src="Photos/Rectangle 39.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Slip-On Formal Shoe</h5>
-                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus nisi
-                                cupiditate nam quod</p>
+                            <h5 class="card-title card-header">Slip-On Formal Shoe</h5>
+                            <p class="card-text paragraph-style">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus nisi cupiditate nam quod</p>
                         </div>
-                        <div class="card-footer d-flex justify-content-between align-items-center">
+                        <div style="border-radius: 15px;" class="card-footer d-flex justify-content-between align-items-center">
                             <div>
-                                <h1>$234</h1>
+                                <h1 class="price">$234</h1>
                             </div>
                             <div>
-                                <button type="button" class="btn btn-primary">BUY NOW</button>
+                                <button type="button" class="btn btn-primary button-style"> <img class="cart-logo" src="Logo, Icon/shopping-cart 1.png" alt="">BUY NOW</button>
                             </div>
                         </div>
                     </div>
@@ -191,49 +197,49 @@
 
         </section>
 
-        <section style="height: 300px;" class="container d-flex mt-5">
-            <div class="col-md-5 mt-5">
-                <div class="card mb-3" style="max-width: 540px; max-height: 150px;">
-                    <div class="row g-0">
+        <section style="height: 550px;" class="col container d-flex mt-5">
+            <div class="col-md-5 col-sm mt-5 col">
+                <div class="card mb-3 card-radious shadow card-border" style="max-width: 500px; max-height: 150px;">
+                    <div class="row g-0 d-flex justify-content-center align-items-center">
                         <div class="col-md-4 card-image-style">
                             <img src="Logo, Icon/image 12.png" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">Find the Perfect Fit</h5>
-                                <p class="card-text">Everybody is different, which is why we offer styles for every body.</p>
+                                <p class="card-text paragraph-style">Everybody is different, which is why we offer styles for every body.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
+                <div class="card mb-3 card-radious shadow card-border" style="max-width: 500px; max-height: 150px;">
+                    <div class="row g-0 d-flex justify-content-center align-items-center">
+                        <div class="col-md-4 card-image-style">
                             <img src="Logo, Icon/image 13.png" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">Free Exchanges</h5>
-                                <p class="card-text">One of the many reasons you can shop with peace of mind.</p>
+                                <p class="card-text paragraph-style">One of the many reasons you can shop with peace of mind.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
+                <div class="card mb-3 card-radious shadow card-border" style="max-width: 500px; max-height: 150px;">
+                    <div class="row g-0 d-flex justify-content-center align-items-center">
+                        <div class="col-md-4 col-sm card-image-style ">
                             <img src="Logo, Icon/image 14.png" alt="...">
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-md-8 ">
                             <div class="card-body">
                                 <h5 class="card-title">Contact Our Seller</h5>
-                                <p class="card-text">They are here to help you. That's quite literally what we pay them for.</p>
+                                <p class="card-text paragraph-style">They are here to help you. That's quite literally what we pay them for.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="footer-image mt-5">
+            <div class="footer-image mt-5 col-md-5 col-sm col">
                 <img src="Logo, Icon/XMLID 1.png" alt="">
             </div>
         </section>

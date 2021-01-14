@@ -1,8 +1,12 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
 .casual-shoes-photo
 {
     background-color: #F1F1F1;
-    height: 330px;
-    border: 2px solid red;
+    height: 340px;
     border-radius: 20px;
     margin: 20px 20px;
 }
@@ -11,15 +15,89 @@
     height: 400px;
     padding-bottom: 50px;
 }
+.formal-shoes-photo
+{
+    height: 340px;
+    margin: 20px 20px;
+}
+.formal-shoes-photo img
+{
+    height: 300px;
+} 
 .card-radious
 {
     border-radius: 15px;
 }
+.card-border
+{
+    border: 0;
+}
+.card-footer
+{
+    border: 0;
+    background-color: white;
+}
 .footer-image img
 {
-    height: 500px;
+    height: 350px;
+    padding-left: 50px;
 }
 .card-image-style img
 {
-    height: 120px;
+    height: 80px;
+    padding-left: 30px;
+}
+.price
+{
+    font-family: 'Roboto', sans-serif;
+    color: #FA804C;
+    font-size: 35px;
+    font-weight: bold;
+}
+.button-style
+{
+    padding: 10px 25px;
+    background-image: linear-gradient(360deg, #3D4FF3, #3644C2);
+    border-radius: 7px;
+}
+.cart-logo
+{
+    height: 25px;
+    padding-right: 5px;
+}
+.a-tag-font
+{
+    font-family: 'Roboto', sans-serif;
+    color: #3B3B3B;
+    font-size: 20px;
+    font-weight: 350;
+}
+.card-header
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    background-color: white;
+    color: #363958;
+    border: 0;
+    padding-left: 0;
+}
+.section-header
+{
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+    font-size: 50px;
+    font-weight: 500;
+}
+.main-header
+{
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+    font-size: 75px;
+    font-weight: 500;
+}
+.paragraph-style
+{
+    font-family: 'Roboto', sans-serif;
+    color: #363958;
 }
